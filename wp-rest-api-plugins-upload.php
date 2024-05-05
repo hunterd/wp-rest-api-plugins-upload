@@ -22,7 +22,7 @@ add_action('plugins_loaded', 'wp_rest_api_plugins_upload_load_textdomain');
 
 
 add_action('rest_api_init', function () {
-    register_rest_route('api-rest-plugin-upload/v1', '/upload/', array(
+    register_rest_route('wp-rest-api-plugins-upload/v1', '/upload/', array(
         'methods' => 'POST',
         'callback' => 'upload_install_plugin',
         'permission_callback' => function () {
