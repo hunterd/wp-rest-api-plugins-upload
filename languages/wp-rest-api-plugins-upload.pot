@@ -1,0 +1,56 @@
+# Copyright (C) 2024 David Mussard
+# This file is distributed under the GPL v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress Plugin for adding an endpoint to the REST API "
+"to securely upload a plugin and unzip it 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-rest-api-"
+"plugins-upload\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-05 11:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: wp-rest-api-plugins-upload\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+
+#. Description of the plugin
+msgid "Adds an endpoint to the WordPress REST API to securely upload a plugin."
+msgstr ""
+
+#. Author of the plugin
+msgid "David Mussard"
+msgstr ""
+
+#: wp-rest-api-plugins-upload.php:82
+msgid "Donate"
+msgstr ""
+
+#: wp-rest-api-plugins-upload.php:61
+msgid "Error uploading file: "
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://davidmussard.com"
+msgstr ""
+
+#: wp-rest-api-plugins-upload.php:56
+msgid "Must be a zip file"
+msgstr ""
+
+#: wp-rest-api-plugins-upload.php:50
+msgid "No file submitted"
+msgstr ""
+
+#: wp-rest-api-plugins-upload.php:78
+msgid "Plugin uploaded successfully"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP REST API Plugins Upload"
+msgstr ""
