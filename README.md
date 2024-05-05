@@ -4,7 +4,7 @@
 The WP REST API Plugin Uploader adds a dedicated REST API endpoint to your WordPress site, allowing you to upload plugins via a `.zip` file remotely. This is particularly beneficial for environments where direct server access via SSH is restricted or unavailable. Or to automatize the plugin installation process after a deployment.
 
 ## Features
-- **REST API Endpoint**: Provides a dedicated endpoint (`/wp-json/api-rest-plugin-upload/v1/upload/`) for uploading `.zip` files of plugins.
+- **REST API Endpoint**: Provides a dedicated endpoint (`/wp-json/wp-rest-api-plugins-upload/v1/upload/`) for uploading `.zip` files of plugins.
 - **Security**: The endpoint enforces that only users with the `install_plugins` capability (typically administrators) can upload plugins, ensuring secure operations.
 - **Ease of Use**: Facilitates the management of plugins on environments without direct server access, simplifying remote operations.
 
@@ -29,7 +29,7 @@ const username = 'your_admin_username'; // Replace with your admin username
 const appPassword = 'your_app_password'; // Replace with your application password
 
 const pluginsApiURL = `${websiteURL}/wp-json/wp/v2`;
-const pluginUploadApiURL = `${websiteURL}/wp-json/api-rest-plugin-upload/v1/upload`;
+const pluginUploadApiURL = `${websiteURL}/wp-json/wp-rest-api-plugins-upload/v1/upload`;
 
 const headers = {
     'Authorization': `Basic ${Buffer.from(`${username}:${appPassword}`).toString('base64')}`,
